@@ -15,9 +15,9 @@ car1 = Car("Tesla", "Model S")
 print("\nTask 1 - Creating a Car instance:")
 print("Full name of the car:", car1)
 
-# Task 2 
-# Implement the bank accounts class with balance attributes and a transfer method that allows you to transfer funds between two accounts. 
-# Use the isinstance(object, type) method.
+# Task 2
+# Implement the bank accounts class with balance attributes and a transfer method that allows you to transfer
+# funds between two accounts. Use the isinstance(object, type) method.
 class BankAccount():
     def __init__(self, balance) -> None:
         self.balance = balance
